@@ -1,0 +1,44 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(-45deg, #e38d72, #da6f98, #72b5cd, #57c4ab);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    text-align: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} 
+
+nav, footer {
+    background-color: #ffffff;
+    opacity: 50%;
+    font-family: 'Rubik', sans-serif; }
+
+nav {
+    display: inline-flex;
+    width: 100%;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.my-dog {
+    position: flex;
+    justify-content: center;
+    width: 400px;
+    height: 550px;
+    border-radius: 5px;
+    padding-bottom: 100px;
+}
