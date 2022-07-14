@@ -1,6 +1,7 @@
+/* gradient animation based on "Pure CSS Background Animation" by Manuel Pinto: https://codepen.io/P1N2O/pen/pyBNzX*/
 body {
     font-family: 'Raleway', sans-serif;
-    background: linear-gradient(-45deg, #e38d72, #da6f98, #72b5cd, #57c4ab);
+    background: linear-gradient(-45deg, #f3da87, #d5a7e8f2, #66ce93);
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
     text-align: center;
